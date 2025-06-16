@@ -72,7 +72,7 @@ export default function Home() {
 )}
 
       {/* Hero Video Slider */}
-      <section className="relative w-full h-screen overflow-hidden shadow-lg">
+      <section className="relative w-full h-screen overflow-hidden shadow-lg bg-black">
 
         <Swiper
           modules={[Autoplay]}
