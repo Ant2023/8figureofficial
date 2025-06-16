@@ -153,7 +153,7 @@ export default function Home() {
   Latest Release
 </h2>
 
-      <h3 className="text-xl sm:text-2xl font-semibold mb-3">People's Choice</h3>
+<h3 className="text-xl sm:text-2xl font-semibold mb-3">{"People's Choice"}</h3>
 
       <p className="text-white/80 mb-6 max-w-xl mx-auto md:mx-0">
         The latest track by 8Figure Official. Smooth production. Clean drop. Streaming everywhere now.
@@ -185,14 +185,14 @@ export default function Home() {
 
     {/* Image First on Mobile */}
     <motion.img
-      src="/images/merch1-removebg-preview.png"
-      alt="Merch Hat"
-      className="rounded-lg object-cover w-full max-w-xs md:max-w-sm order-1 md:order-2 md:ml-8"
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      whileHover={{ scale: 1.05 }}
-      transition={{ duration: 0.6 }}
-    />
+  src="https://i.imgur.com/fzHQCSe.png"
+  alt="Merch Hat"
+  className="rounded-lg object-cover w-full max-w-xs md:max-w-sm order-1 md:order-2 md:ml-8"
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.6 }}
+/>
 
     {/* Text Second on Mobile */}
     <div className="flex flex-col justify-center w-full text-center md:text-left md:w-1/2 order-2 md:order-1 px-4 md:pl-16">
