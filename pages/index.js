@@ -120,10 +120,8 @@ export default function Home() {
 
   {/* Text content on top */}
   <div className="absolute top-0 left-0 w-full h-full z-20 flex flex-col items-center justify-center text-center px-6">
-    <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-white">8Figure Official</h1>
-    <p className="text-xl md:text-2xl mb-6 max-w-2xl text-white">
-      Sound. Style. Statement. Watch the vibe.
-    </p>
+    <h1 className="text-5xl md:text-6xl font-extrabold mb-8 text-white">8Figure Official</h1>
+    
     <a
       href="https://linktr.ee/fataiwilliam"
       className="px-6 py-3 rounded-full border border-white text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 font-bold uppercase hover:opacity-80 transition duration-300"
