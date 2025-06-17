@@ -183,7 +183,7 @@ export default function Home() {
 
     {/* Image First on Mobile */}
     <motion.img
-  src="https://i.imgur.com/fzHQCSe.png"
+  src="/images/Merch1-removebg-preview.png"
   alt="Merch Hat"
   className="rounded-lg object-cover w-full max-w-xs md:max-w-sm order-1 md:order-2 md:ml-8"
   initial={{ opacity: 0, scale: 0.9 }}
